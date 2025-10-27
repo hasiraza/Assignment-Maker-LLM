@@ -1,0 +1,12 @@
+username,activity_type,timestamp,details
+admin,ADMIN_LOGIN,2025-10-27 07:44:01,Administrator logged in
+admin,USER_REGISTERED,2025-10-27 07:44:39,New user registered by admin: hasiraza (Muhammad Haseeb)
+admin,ADMIN_LOGOUT,2025-10-27 07:44:42,Administrator logged out
+hasiraza,LOGIN,2025-10-27 07:45:00,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-10-27 07:46:42,"Subject: Machine Learning, Student: MUhamamd Haseeb"
+admin,ADMIN_LOGIN,2025-10-27 07:56:16,Administrator logged in
+admin,ADMIN_LOGIN,2025-10-27 07:58:55,Administrator logged in
+admin,USER_DELETED,2025-10-27 07:59:08,User deleted by admin: hasiraza
+admin,ADMIN_LOGOUT,2025-10-27 07:59:12,Administrator logged out
+admin,ADMIN_LOGIN,2025-10-27 08:02:54,Administrator logged in
+admin,ADMIN_LOGOUT,2025-10-27 08:03:13,Administrator logged out
