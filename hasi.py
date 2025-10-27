@@ -644,7 +644,7 @@ col1, col2 = st.columns(2)
 with col1:
     university_name = st.text_input(
         "University Name *", 
-        placeholder="University of Lahore",
+        placeholder="University of Management and Technology",
         help=f"Minimum {MIN_UNIVERSITY_NAME_LENGTH} characters"
     )
     student_name = st.text_input(
@@ -670,7 +670,7 @@ with col2:
     )
     instructor_name = st.text_input(
         "Instructor Name", 
-        placeholder="Dr. Sarah Johnson"
+        placeholder="Dr. Farhan Aslam"
     )
     semester = st.text_input(
         "Semester/Term", 
