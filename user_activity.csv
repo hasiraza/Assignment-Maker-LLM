@@ -1,0 +1,53 @@
+username,activity_type,timestamp,details
+admin,ADMIN_LOGIN,2025-11-03 00:40:18,Administrator logged in
+admin,USER_REGISTERED,2025-11-03 00:40:39,New user registered by admin: hasiraza (Muhamamd Haseeb)
+admin,ADMIN_LOGOUT,2025-11-03 00:40:42,Administrator logged out
+hasiraza,LOGIN,2025-11-03 00:40:54,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 00:42:32,"Subject: machine learning, Student: Muhammad Haseeb"
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 00:44:37,"Subject: machine learning, Student: Muhammad Haseeb (with document context)"
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 00:46:00,"Subject: machine learning, Student: Muhammad Haseeb (with document context)"
+hasiraza,LOGIN,2025-11-03 00:53:43,User logged in successfully
+hasiraza,LOGIN,2025-11-03 00:58:09,User logged in successfully
+hasiraza,LOGIN,2025-11-03 00:59:16,User logged in successfully
+hasiraza,LOGIN,2025-11-03 01:00:45,User logged in successfully
+hasiraza,LOGIN,2025-11-03 01:01:12,User logged in successfully
+hasiraza,LOGIN,2025-11-03 01:01:49,User logged in successfully
+hasiraza,LOGIN,2025-11-03 01:03:41,User logged in successfully
+hasiraza,LOGIN,2025-11-03 01:04:13,User logged in successfully
+hasiraza,LOGIN,2025-11-03 01:11:02,User logged in successfully
+hasiraza,LOGIN,2025-11-03 01:12:24,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:16:18,"Subject: Machine Learning, Student: Muhammad Haseeb (with document context)"
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:17:20,"Subject: Machine Learning, Student: Muhammad Haseeb (with document context)"
+hasiraza,LOGOUT,2025-11-03 01:21:59,User logged out
+admin,ADMIN_LOGIN,2025-11-03 01:22:09,Administrator logged in
+admin,ADMIN_LOGOUT,2025-11-03 01:22:35,Administrator logged out
+hasiraza,LOGIN,2025-11-03 01:25:25,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:27:30,"Subject: fm,msm,dfd, Student:  sg fdggdf dg (with document context)"
+hasiraza,LOGIN,2025-11-03 01:31:06,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:32:48,"Subject: fssffsdfsd, Student: fsdsfdsdffddf (with document context)"
+hasiraza,LOGIN,2025-11-03 01:36:10,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:37:09,"Subject: cznb ]nzxcn, Student: b\chzzcxn (with document context)"
+hasiraza,LOGIN,2025-11-03 01:38:12,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:39:04,"Subject: sdbjabjadfsbsda, Student: sadfmnbsdafnnnsfdaf (with document context)"
+hasiraza,LOGIN,2025-11-03 01:40:10,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:41:23,"Subject: asfdbafsdfsd, Student: fsdajkfdsjkafd (with document context)"
+hasiraza,LOGIN,2025-11-03 01:46:47,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:48:18,"Subject: vcvbvvb, Student: ghcgfcgf (with document context)"
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 01:52:06,"Subject: vcvbvvb, Student: ghcgfcgf (with document context)"
+hasiraza,LOGIN,2025-11-03 01:56:19,User logged in successfully
+hasiraza,LOGIN,2025-11-03 01:58:55,User logged in successfully
+hasiraza,LOGIN,2025-11-03 02:01:28,User logged in successfully
+hasiraza,LOGIN,2025-11-03 02:02:43,User logged in successfully
+hasiraza,LOGIN,2025-11-03 02:04:26,User logged in successfully
+hasiraza,LOGIN,2025-11-03 02:07:31,User logged in successfully
+hasiraza,LOGIN,2025-11-03 03:12:10,User logged in successfully
+hasiraza,LOGIN,2025-11-03 03:16:07,User logged in successfully
+hasiraza,LOGIN,2025-11-03 03:19:16,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 03:20:27,"Subject: Machine Learning, Student: Muhammad Haseeb (with document context)"
+hasiraza,LOGIN,2025-11-03 03:22:17,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 03:23:00,"Subject: Machine Learning, Student: Muhammad Haseeb"
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 03:25:24,"Subject: Machine Learning, Student: Muhammad Haseeb (with document context)"
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 03:26:21,"Subject: Machine Learning, Student: Muhammad Haseeb (with document context)"
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 03:27:10,"Subject: Machine Learning, Student: Muhammad Haseeb (with document context)"
+hasiraza,LOGIN,2025-11-03 03:27:42,User logged in successfully
+hasiraza,ASSIGNMENT_GENERATED,2025-11-03 03:28:35,"Subject: Madiha Umer, Student: New York"
