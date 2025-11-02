@@ -4,6 +4,7 @@ from typing import Tuple
 from PIL import Image
 import PyPDF2
 import docx
+import pytesseract
 import google.generativeai as genai
 from config import UPLOAD_FOLDER, MAX_DOCUMENT_SIZE_MB, GOOGLE_API_KEY
 
@@ -44,20 +45,14 @@ def extract_text_from_txt(file_content: bytes) -> str:
         raise Exception(f"Error reading TXT: {str(e)}")
 
 
-def extract_text_from_image(file_content: bytes, api_key: str) -> str:
-    """Extract text from image using Gemini Vision model."""
+def extract_text_from_image_local(file_content: bytes) -> str:
+    """Extract text from image using local OCR (pytesseract)."""
     try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-2.0-flash-exp')
         image = Image.open(BytesIO(file_content))
-
-        prompt = """Extract all text content from this image.
-        Include visible text with proper structure. If equations appear, describe them clearly."""
-
-        response = model.generate_content([prompt, image])
-        return response.text.strip()
+        text = pytesseract.image_to_string(image)
+        return text.strip()
     except Exception as e:
-        raise Exception(f"Error extracting text from image: {str(e)}")
+        raise Exception(f"Error extracting text from image (OCR): {str(e)}")
 
 
 # ---------- DOCUMENT PROCESSING ---------- #
@@ -82,9 +77,7 @@ def process_uploaded_document(uploaded_file, api_key: str) -> Tuple[bool, str, s
         elif file_extension in ['txt', 'md']:
             text = extract_text_from_txt(file_content)
         elif file_extension in ['png', 'jpg', 'jpeg']:
-            if not api_key or len(api_key.strip()) < 10:
-                return False, "", "API key required for image extraction"
-            text = extract_text_from_image(file_content, api_key)
+            text = extract_text_from_image_local(file_content)
         else:
             return False, "", f"Unsupported file type: {file_extension}"
 
@@ -120,7 +113,7 @@ def summarize_in_chunks(text: str, api_key: str, chunk_size: int = 4000) -> Tupl
 
         # Combine all partial summaries into one final summary
         final_prompt = (
-            "Combine the following summaries into one concise, structured academic summary:\n\n"
+            "Combine the following summaries into one clear, structured academic summary:\n\n"
             + "\n\n".join(summaries)
         )
         final_response = model.generate_content(final_prompt)
