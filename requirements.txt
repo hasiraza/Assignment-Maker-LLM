@@ -16,3 +16,4 @@ Pillow
 # --- Environment & Utilities ---
 python-dotenv
 requests
+reportlab
